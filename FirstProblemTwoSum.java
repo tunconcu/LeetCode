@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FirstProblem {
+public class FirstProblemTwoSum {
     public static void main(String[] args) {
         System.out.println("LeetCode problem 1: twosum");
         
@@ -18,7 +18,7 @@ public class FirstProblem {
         twoSum(array,target);
         }
         
-        System.out.println("Official Solution ------------------------------------------------------------");
+        //System.out.println("Official Solution-------------------------------");
          public static int[] twoSum(int[] nums, int target) {
                 for (int i = 0; i < nums.length; i++) {
                     for (int j = i + 1; j < nums.length; j++) {
@@ -28,6 +28,7 @@ public class FirstProblem {
                             System.out.println("Target number: " + target);
                             return new int[] { i, j }; 
                         }
+                        //System.out.println("Official Solution-------------------------------");
                     }
                 }
                 for(int i=0;i<10;i++) {
@@ -38,12 +39,6 @@ public class FirstProblem {
                         }
                     }
                 }
-                
-                
-                
-                
-                
-                
                 return null;
             }	
         
