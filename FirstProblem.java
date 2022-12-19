@@ -26,7 +26,7 @@ public class FirstProblem {
                             System.out.println("First indice: " + i);
                             System.out.println("Second indice: " + j);
                             System.out.println("Target number: " + target);
-                            return new int[] { i, j, target }; 
+                            return new int[] { i, j }; 
                         }
                     }
                 }
