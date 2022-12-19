@@ -14,7 +14,7 @@ public class FirstProblemTwoSum {
         int target;
         System.out.println("Please enter the target number: ");
         target = scanner.nextInt();
-        
+        scanner.close();
         twoSum(array,target);
         }
         
@@ -40,6 +40,7 @@ public class FirstProblemTwoSum {
                     }
                 }
                 return null;
+                
             }	
         
 }
